@@ -1,0 +1,87 @@
+/*Fonts*/
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/roboto-400.woff2") format("woff2"),
+    url("../fonts/roboto-400.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/roboto-500.woff2") format("woff2"),
+    url("../fonts/roboto-500.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/roboto-700.woff2") format("woff2"),
+    url("../fonts/roboto-700.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("../fonts/roboto-900.woff2") format("woff2"),
+    url("../fonts/roboto-900.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Variables */
+:root {
+    --basic-white: #FFFFFF;
+    --basic-black: #000000;
+}
+
+/* Global */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+
+    background-color: var(--basic-white);
+
+    font-family: "Roboto Regular", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 54px;
+    color: var(--basic-black);
+}
+
+img {
+    max-width: 100%;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+
+}
