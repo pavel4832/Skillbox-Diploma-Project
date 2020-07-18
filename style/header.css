@@ -1,1 +1,122 @@
 /*Header styles*/
+header {
+  padding-bottom: 238px;
+  background-color: #fbfbfb;
+  background-image: url("../img/Ellipse_1.png");
+  background-position: bottom;
+  background-position-x: 1107px;
+  background-repeat: no-repeat;
+}
+.main-header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-template-rows: min-content 1fr;
+  align-items: start;
+  padding-top: 25px;
+}
+
+.header-menu {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.header-menu-list {
+  display: inline;
+  padding: 0;
+  list-style: none;
+  margin-left: 8px;
+}
+
+.header-menu-item {
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.header-menu-item:last-child {
+  margin-right: 0;
+}
+
+.header-menu-link {
+  font-family: "Roboto Regular", Arial, sans-serif;;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #1f1f24;
+}
+
+.active-now {
+  display: inline-block;
+
+  color: #fc557c;
+  vertical-align: baseline;
+
+  border-bottom: 1px solid #fc557c;
+}
+
+.header-contact {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  justify-self: end;
+  line-height: 50px;
+}
+
+.header-phone {
+  margin-right: 24px;
+
+  font-family: "Roboto Bold", Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f1f24;
+}
+
+.header-btn {
+  width: 207px;
+  height: 45px;
+  margin-right: -8px;
+
+  font-size: 16px;
+  line-height: 45px;
+  color: #f53f4f;
+
+  background-color: #FFFFFF;
+  border: 1px solid #f82370;
+}
+
+.header-description {
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  margin-top: 203px;
+  padding-left: 8px;
+}
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: "Roboto Black", Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 104.64px;
+  color: #1f1f24;
+}
+
+.header-description-text {
+  margin: 0;
+  margin-left: 1px;
+
+  font-size: 25px;
+  line-height: 50px;
+  color: #8993ad;
+}
+
+.description-btn {
+  margin-top: 36px;
+}
+
+.header-img {
+  position: absolute;
+  top: 107px;
+  right: -74px;
+}
+
