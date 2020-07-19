@@ -1,6 +1,6 @@
 /*Header styles*/
 header {
-  padding-bottom: 238px;
+  padding-bottom: 235px;
   background-color: #fbfbfb;
   background-image: url("../img/Ellipse_1.png");
   background-position: bottom;
@@ -102,6 +102,7 @@ header {
 }
 
 .header-description-text {
+  display: block;
   margin: 0;
   margin-left: 1px;
 
@@ -116,7 +117,7 @@ header {
 
 .header-img {
   position: absolute;
-  top: 107px;
+  top: 130px;
   right: -74px;
 }
 
