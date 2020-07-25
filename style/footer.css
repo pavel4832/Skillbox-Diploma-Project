@@ -42,9 +42,14 @@
   color: #000000;
 }
 
-.fa {
-  margin-right: 20px;
-  color: #fa0891;
+.contact-phone::before {
+  content: url("../img/call-answer-icon.png");
+  margin-right: 16px;
+}
+
+.contact-email::before {
+  content: url("../img/envelope-icon.png");
+  margin-right: 16px;
 }
 
 .socials-btn {
@@ -80,28 +85,28 @@
 }
 
 .vk-link {
-  background-image: url("../img/socials_icon.png");
+  background-image: url("../img/socials_icon-desctop@1x.png");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 0;
 }
 
 .fb-link {
-  background-image: url("../img/socials_icon.png");
+  background-image: url("../img/socials_icon-desctop@1x.png");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: -53px;
 }
 
 .tw-link {
-  background-image: url("../img/socials_icon.png");
+  background-image: url("../img/socials_icon-desctop@1x.png");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: -106px;
 }
 
 .inst-link {
-  background-image: url("../img/socials_icon.png");
+  background-image: url("../img/socials_icon-desctop@1x.png");
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: -159px;

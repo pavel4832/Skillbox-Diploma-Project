@@ -23,25 +23,29 @@
   justify-content: space-between;
   width: 100%;
   margin-bottom: 91px;
-  margin-top: 91px;
+  margin-top: 97px;
   padding: 0;
   list-style: none;
 }
 
-.my-skills-item {
-  display: inline-flex;
+.my-skills-item__image {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 5px;
+  margin: 0;
+}
+
+.my-skills-item__description {
+  margin-top: 18px;
+
+  line-height: 30px;
+  text-align: center;
 }
 
 .my-skills-link {
-  margin-top: 18px;
-
   font-size: 20px;
-  line-height: 30px;
   color: #8993ad;
-  text-align: center;
+
 }
 
 .my-work {
